@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.blog-title-container {
+    margin: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: #2e354f;
+}
+
+.blog-shortened-container {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ef5839;
+}
+
+p {
+    color: #2e354f;
+}
+
+.blog-section-one-container, .blog-section-two-container {
+    padding: 30px 0 30px 0;
+}
+
+.blog-section-two-container {
+    background: #2e354f;
+    padding-bottom: 50px;
+}
+
+.blog-section-two-container p {
+    color: #fff;
+}
+
+.link-in-text {
+    color: #ef5839;
+}
+
+.link-in-text:hover {
+    color: #000;
+}
+
+.link-in-text:active {
+    color: red;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-orange {
+    background-color: #ef5839;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #2e354f;
+    margin-left: 15px;
+}
+
+.btn-orange:hover {
+    background-color: #fff;
+    color: #2e354f;
+}
+
+.btn-white:hover, .btn-orange:hover {
+    background-color: yellow;
+    color: #000;
+}
+
+.btn-white:active, .btn-orange:active {
+    background-color: red;
+}
